@@ -1,0 +1,39 @@
+baseurl = "http://joshuamarquez.me/"
+title = "joshuamarquez.me"
+languageCode = "en-us"
+copyright = "My Name"
+googleAnalytics = "UA-77414174-1"
+disqusShortname = "joshuamarquez"
+
+[Author]
+    name = "Joshua Marquez"
+    profile = "https://www.facebook.com/josuehenry14"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Joshua's Blog"
+    description = "Information Systems Engineer"
+    github = "https://github.com/joshuamarquez"
+    linkedin = "https://www.linkedin.com/in/josuehenry14"
+    twitter = "https://twitter.com/joshuamarquezn"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Browse Posts"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 3
