@@ -1,5 +1,5 @@
 +++
-date = "2016-05-08T18:16:46-07:00"
+date = "2016-06-12T18:16:46-07:00"
 draft = true
 title = "How to use sails.io.js in Java"
 
@@ -22,7 +22,7 @@ already does that.
 Like surely you suspected `emit` method of `socket.io-client-java` is what we need
 to make `sails.io.js` request. Lets take a look to
 [_emitFrom](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L573) function from
-[sails.io.js](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js) which is used to send request.
+[sails.io.js](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js) which is used to send requests.
 
 ```javascript
 function _emitFrom(socket, requestCtx) {
@@ -48,103 +48,57 @@ function _emitFrom(socket, requestCtx) {
 }
 ```
 
-As you can see, `sailsEndpoint` is the HTTP method to use. `requestCtx` is
-the body, and the third parameter passed to `emit` is the **Acknowledge callback**
-a key parameter to receive response from server. Once ``serverResponded`` is executed,
-the callback extracted from `requestCtx` is called with response body and JSON web socket response.
+As you can see, `sailsEndpoint` is the HTTP method to use as the socket event.
+`requestCtx` is the body as the second argument of `emit`, and the third
+parameter passed to `emit` is the  **Acknowledge callback**, a key parameter to
+receive response from server. Once ``serverResponded`` is executed, the callback
+extracted from `requestCtx` is called with response body and JSON web socket
+response.
 
-Now we code something similar but in Java.
+For example, if we do a `POST` with body request, `_emitFrom` will be executed
+with the following `requestCtx`.
 
-To simulate something similar to `requestCtx` JavaScript Object lets create
-`WebSocketListener.java`, `WebSocketRequest.java` and `WebSocketResponse.java`.
-
-### `WebSocketListener.java`
-
-```java
-public interface WebSocketListener {
-
-  void onResponse(WebSocketResponse response);
-
-  void onError(Error error);
-
+```javascript
+{
+  method, 'POST',
+  headers: { 'x-my-custom-header': 'some string' },
+  data: { email: 'joshua.marquezn@gmail.com' },
+  url: '/user'
+  cb: function(responseBody, JWR) {
+    // ...
+  }
 }
 ```
 
-## [`_emitFrom`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L573)
+As we mentioned before
 
-Next is to make something similar to [_emitFrom](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L573).
+* `method` is the event
+* `headers`, `data` and `url` is the second argument of `.emit()`.
+* `cb` is the Acknowledge callback of `.emit()`.
+
+Now lets try to do something similar but in Java.
+
+This could be be our [`_emitFrom`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L573) in Java.
 
 ```java
-private void emitFrom(WebSocketRequest request) {
+void emitFrom(Socket socket, SailsSocketRequest request) {
+  // Name of the appropriate socket.io listener on the server
+  // ( === the request method or "verb", e.g. 'get', 'post', 'put', etc. )
+  String sailsEndpoint = request.getMethod();
 
-    final WebSocketListener listener = request.getListener();
-    JSONObject reqObj = null;
+  // Since Listener is embedded in request, retrieve it.
+  final SailsSocketResponse.Listener listener = request.getListener();
 
-    try {
-        reqObj = request.toJSONObject();
-    } catch (JSONException e) {
-        listener.onError(new Error(e));
-
-        return;
+  socket.emit(sailsEndpoint, request.toJSONObject(), new Ack() {
+    @Override
+    public void call(Object... args) {
+      // Send back jsonWebSocketResponse
+      if (listener != null) {
+        listener.onResponse(new JWR((JSONObject) args[0]));
+      }
     }
-
-    if (reqObj != null) {
-        mSocket.emit(request.getMethod(), reqObj, new Ack() {
-            @Override
-            public void call(Object... args) {
-                listener.onResponse(new WSResponse(args[0]));
-            }
-        });
-    } else {
-        listener.onError(new Error("Error getting Socket Request!"));
-    }
-
+  });
 }
 ```
 
-Once we have our `Java` classes ready is time to build the `sails.io.js` methods.
-
-## [`request()`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L1200)
-
-
-```java
-public void request(String method, String url, JSONObject params, WebSocketListener listener) {
-    emitFrom(new WebSocketRequest(method, url, params, listener));
-}
-```
-
-## [`get()`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L1077)
-
-```java
-public void get(String url, JSONObject params, WebSocketListener listener) {
-    emitFrom(new WebSocketRequest(WebSocketRequest.METHOD_GET, url, params, listener));
-}
-```
-
-## [`post()`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L1105)
-
-```java
-public void post(String url, JSONObject params, WebSocketListener listener) {
-    emitFrom(new WebSocketRequest(WebSocketRequest.METHOD_POST, url, params, listener));
-}
-```
-
-## [`put()`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L1133)
-
-```java
-public void put(String url, JSONObject params, WebSocketListener listener) {
-    emitFrom(new WebSocketRequest(WebSocketRequest.METHOD_PUT, url, params, listener));
-}
-```
-
-## [`delete()`](https://github.com/balderdashy/sails.io.js/blob/master/sails.io.js#L1161)
-
-```java
-public void delete(String url, JSONObject params, WebSocketListener listener) {
-    emitFrom(new WebSocketRequest(WebSocketRequest.METHOD_DELETE, url, params, listener));
-}
-```
-
-Everything together will look like:
-
-// TODO: methods in own WebSocket class.
+You can find a full implementation of `sails.io.js` in Java called [`sails.io.java`](https://github.com/joshuamarquez/sails.io.java).
