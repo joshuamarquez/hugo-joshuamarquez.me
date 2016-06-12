@@ -101,4 +101,4 @@ void emitFrom(Socket socket, SailsSocketRequest request) {
 }
 ```
 
-You can find a full implementation of `sails.io.js` in Java called [`sails.io.java`](https://github.com/joshuamarquez/sails.io.java).
+You can find a full implementation of `sails.io.js` in Java at https://github.com/joshuamarquez/sails.io.java.
