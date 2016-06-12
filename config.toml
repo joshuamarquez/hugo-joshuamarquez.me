@@ -1,7 +1,7 @@
 baseurl = "http://joshuamarquez.me/"
 title = "joshuamarquez.me"
 languageCode = "en-us"
-copyright = "My Name"
+copyright = "Joshua Marquez"
 googleAnalytics = "UA-77414174-1"
 disqusShortname = "joshuamarquez"
 
@@ -15,7 +15,7 @@ disqusShortname = "joshuamarquez"
 [Params]
     intro = true
     headline = "Joshua's Blog"
-    description = "Information Systems Engineer"
+    description = "Software Engineer"
     github = "https://github.com/joshuamarquez"
     linkedin = "https://www.linkedin.com/in/josuehenry14"
     twitter = "https://twitter.com/joshuamarquezn"
