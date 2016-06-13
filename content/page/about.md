@@ -6,43 +6,64 @@ title = "about"
 
 +++
 
-## About
+# About me
 
-Hi!, I'm Josué Márquez N. Back-End developer from Hermosillo, México. I love coding and learn new things.
+Hi!, I'm Josué Márquez N. Back-End developer from Hermosillo, México.
 
-## Work Experience
+**I love...**
 
-* February 2015 - Present
+ * Coding
+ * Learn new things
+ * Fantastic/Sci-Fi reading
+ * Football (soccer)
+ * Mountain Biking
 
-**Protocool: Back-End Developer (Node.js) & Mobile Developer (Android).
-Hermosillo, MX.** Currently developing a real time application in Node.js platform and Android.
+# Projects
 
-* September 2014 - January 2015
+* [NPM packages](https://www.npmjs.com/~joshua.marquez)
+* [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
+* [Maven Java artifacts](https://bintray.com/joshuamarquez/maven)
+* [Android Apps](https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez)
 
-**Teknol: GIS Developer & Front-End Developer (AngularJS). Hermosillo, MX.** I
-was as intern in Teknol developing in Ionic framework for a GIS app.
+# Work Experience
 
-* November 2012 - August 2014
+* **February 2015 - Present**
 
-**Freelance: Full-Stack Web Developer & Mobile Developer (Android). Hermosillo,
-MX.** As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
+#### [Protocool] Back-End Developer (Node.js) & Mobile Developer (Android). Hermosillo, MX.
+
+Currently developing a real time application in Node.js platform and Android.
+
+* **September 2014 - January 2015**
+
+#### [[Teknol](http://www.teknol.net/)] GIS Developer & Front-End Developer (AngularJS). Hermosillo, MX.
+
+I was as intern in Teknol developing in Ionic framework for a GIS app.
+
+* **November 2012 - August 2014**
+
+#### [Freelance] Full-Stack Web Developer & Mobile Developer (Android). Hermosillo, MX.
+
+As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
 JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
 Android projects leaving me great experience and satisfaction.
 
-## Courses and Achievements
+# Courses and Achievements
 
-* February 2014
+* **February 2014**
 
-[**Oracle Certified Professional, Java SE 6 Programmer.**](http://joshuamarquez.me/docs/eCertificate.pdf)
-Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014.
+#### Oracle Certified Professional, Java SE 6 Programmer.
 
-## Education
+Recognized by The Oracle Certification Program as a Java SE 6 Programmer February 1st 2014. [**PDF Certificate.**](http://joshuamarquez.me/docs/eCertificate.pdf)
 
-* August 2010 - May 2015
+# Education
 
-**Information Systems Engineer**, Universidad de Sonora. Hermosillo, México.
+* **August 2010 - May 2015**
 
-## Computer Languages
+#### Information Systems Engineer
+
+Universidad de Sonora. Hermosillo, México.
+
+# Computer Languages
 
 * Java **90%**
 * JavaScript **95%**
@@ -50,7 +71,7 @@ Recognized by The Oracle Certification Program as a Java SE 6 Programmer Februar
 * CSS3 **85%**
 * SQL **85%**
 
-## Skills
+# Skills
 
 * Node.js **95%**
 * AngularJS **85%**
@@ -62,12 +83,12 @@ Recognized by The Oracle Certification Program as a Java SE 6 Programmer Februar
 * OpenCV **75%**
 * MySQL **85%**
 
-## Languages
+# Languages
 
-* Español
+* **Español**
 
 Native competition
 
-* English
+* **English**
 
 Professional basic competition
