@@ -73,13 +73,13 @@ Java, JavaScript, HTML5, CSS3, SQL.
 
 # Skills
 
-* Node.js
-* Mocha
-* Docker
-* Sails.js
-* Socket.IO
-* Git
-* MySQL
+* [Node.js](https://nodejs.org)
+* [Mocha](https://mochajs.org)
+* [Docker](https://www.docker.com)
+* [Sails.js](http://sailsjs.com)
+* [Socket.IO](http://socket.io)
+* [Git](https://git-scm.com)
+* [MySQL](https://www.mysql.com)
 
 # Languages
 

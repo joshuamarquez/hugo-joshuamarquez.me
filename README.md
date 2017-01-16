@@ -22,3 +22,5 @@ $ hugo server --theme=ghostwriter
 ```
 $ hugo --theme=ghostwriter
 ```
+
+After running the above command you can find the generated site at `hugo-joshuamarquez.me/public`.
