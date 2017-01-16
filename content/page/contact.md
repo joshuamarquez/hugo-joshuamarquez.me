@@ -8,7 +8,7 @@ title = "contact"
 
 ## Contact
 
-You can reach me at
+You can reach me at...
 
 * twitter [@joshuamarquezn](https://twitter.com/joshuamarquezn)
 * gmail <joshua.marquezn@gmail.com>
