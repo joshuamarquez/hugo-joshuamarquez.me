@@ -12,18 +12,18 @@ Hi!, I'm Josué Márquez N., a Back-End developer from Hermosillo, México.
 
 **I love...**
 
- * Coding
- * Learn new things
- * Fantastic/Sci-Fi reading
- * Football (soccer)
- * Mountain Biking
+*   Coding
+*   Learn new things
+*   Fantastic/Sci-Fi reading
+*   Football (soccer)
+*   Mountain Biking
 
 # Things I do in my free time (some of it)...
 
-* [NPM packages](https://www.npmjs.com/~joshua.marquez)
-* [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
-* [Maven Java artifacts](https://bintray.com/joshuamarquez/maven)
-* [Android Apps](https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez)
+*   [NPM packages](https://www.npmjs.com/~joshua.marquez)
+*   [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
+*   [Maven Java artifacts](https://bintray.com/joshuamarquez/maven)
+*   [Android Apps](https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez)
 
 # Experience
 
@@ -73,20 +73,20 @@ Java, JavaScript, HTML5, CSS3, SQL.
 
 # Skills
 
-* [Node.js](https://nodejs.org)
-* [Mocha](https://mochajs.org)
-* [Docker](https://www.docker.com)
-* [Sails.js](http://sailsjs.com)
-* [Socket.IO](http://socket.io)
-* [Git](https://git-scm.com)
-* [MySQL](https://www.mysql.com)
+*   [Node.js](https://nodejs.org)
+*   [Mocha](https://mochajs.org)
+*   [Docker](https://www.docker.com)
+*   [Sails.js](http://sailsjs.com)
+*   [Socket.IO](http://socket.io)
+*   [Git](https://git-scm.com)
+*   [MySQL](https://www.mysql.com)
 
 # Languages
 
-* **Español**
+*   **Español**
 
 Native competition
 
-* **English**
+*   **English**
 
 Professional basic competition
