@@ -20,7 +20,7 @@ Hi!, I'm Josué Márquez N., a Back-End developer from Hermosillo, México.
 
 # Things I do in my free time (some of it)...
 
-*   [NPM packages](https://www.npmjs.com/~joshua.marquez)
+*   [npm packages](https://www.npmjs.com/~joshua.marquez)
 *   [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
 *   [Maven Java artifacts](https://bintray.com/joshuamarquez/maven)
 *   [Android Apps](https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez)
