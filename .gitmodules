@@ -1,3 +1,3 @@
-[submodule "themes/ghostwriter"]
-	path = themes/ghostwriter
-	url = https://github.com/jbub/ghostwriter
+[submodule "themes/coder"]
+	path = themes/coder
+	url = https://github.com/luizdepra/hugo-coder.git

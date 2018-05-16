@@ -6,88 +6,120 @@ title = "about"
 
 +++
 
-# Who Am I?
+## Who Am I?
 
-Hi!, I'm Josué Márquez N., a Back-End developer from Hermosillo, México.
+Hi!, I'm Josué Márquez Navarro, a Software Engineer.
 
 **I love...**
 
 *   Coding
-*   Learn new things
-*   Fantastic/Sci-Fi reading
-*   Football (soccer)
 *   Mountain Biking
+*   Fantastic/Sci-Fi reading
+*   Learn new things
 
-# Things I do in my free time (some of it)...
+## Things I do in my free time (some of them)...
 
+*   [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
 *   [npm packages](https://www.npmjs.com/~joshua.marquez)
 *   [Docker images](https://hub.docker.com/r/joshuamarquez)
-*   [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
 *   [Maven Java artifacts](https://bintray.com/joshuamarquez/maven)
 *   [Android Apps](https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez)
 
-# Experience
+## Experience
 
-_February 2015 - Present_ / **Back-End Developer at Protocool in Hermosillo, MX.**
+**_February 2018 - Present_ / Back-End & DevOps Developer at [Agave Lab](http://agavelab.com/) in Guadalajara, MX.**
 
-Most of my projects are on Node.js along with todays top technologies/tools like
-Docker, Travis CI, Mocha, etc.
+Currently working with microservices using technologies like:
 
----
+* GraphQL
+* gRPC
+* Node.js
+* PostgreSQL
+* Docker
 
-_September 2014 - January 2015_ / **GIS Developer & Front-End Developer (AngularJS) at [Teknol](http://www.teknol.net/) in Hermosillo, MX.**
+For the DevOps part:
 
-Made my internship in Teknol developing a GIS app with Ionic framework and
-GeoServer.
+* Kubernetes
+* AWS
+* Azure
+* Rancher
+* CircleCI
 
----
 
-_November 2012 - August 2014_ / **Full-Stack Web Developer & Mobile Developer (Android) at Freelance in Hermosillo, MX.**
+**_February 2015 - November 2017_ / Back-End Developer at Protocool in Hermosillo, MX.**
 
-As freelance most part of my projects were in PHP (Laravel, Yii), HTML5, CSS,
-JavaScript, AJAX and jQuery. I had the opportunity to work with a couple of
-Android projects leaving me great experience and enthusiasm to continue in the
-world of programming.
+Most of my projects were RESTful API's services alog with technologies like:
 
----
+* Node.js
+* Docker
+* Travis CI
+* Mocha
 
-# Courses and Achievements
+**_September 2014 - January 2015_ / GIS Developer & Front-End Developer at [Teknol](http://www.teknol.net/) in Hermosillo, MX.**
 
-_February 2014_ / **Oracle Certified Professional, Java SE 6 Programmer.**
+Made my internship in Teknol developing a GIS app using:
+
+* Ionic framework
+* GeoServer
+
+**_November 2013 - August 2014_ / Mobile Developer at Freelance in Hermosillo, MX.**
+
+I had the opportunity to work with a couple of Android projects leaving me great
+experience and enthusiasm to continue in the world of programming.
+
+## Courses and Achievements
+
+**_February 2014_ / Oracle Certified Professional, Java SE 6 Programmer.**
 
 Recognized by The Oracle Certification Program as a Java SE 6 Programmer.
 [**PDF Certificate.**](http://joshuamarquez.me/docs/eCertificate.pdf)
 
----
-
-# Education
+## Education
 
 _August 2010 - May 2015_ / **Information Systems Engineer**
 
 Universidad de Sonora. Hermosillo, México.
 
----
+## Skills
 
-# Computer Languages
+### Web technologies and frameworks
 
-Java, JavaScript, HTML5, CSS3, SQL.
+* Back-end
 
-# Skills
+  * Node.js
+  * Express.js
+  * Sails.js
+  * GraphQL
+  * gRPC
+  * Mocha
 
-*   [Node.js](https://nodejs.org)
-*   [Mocha](https://mochajs.org)
-*   [Docker](https://www.docker.com)
-*   [Sails.js](http://sailsjs.com)
-*   [Socket.IO](http://socket.io)
-*   [Git](https://git-scm.com)
-*   [MySQL](https://www.mysql.com)
+* Front-end
 
-# Languages
+  * React.js (Junior Level)
 
-*   **Español**
+### Databases
 
-Native competition
+* PostgreSQL
+* MySQL
+* MongoDB
 
-*   **English**
+### Programming languages
 
-Professional basic competition
+* JavaScript (ES6)
+* Java SE 6
+
+### DevOps
+
+* AWS
+* Azure
+* Docker
+* Kubernetes
+* Rancher
+* Travis
+* CircleCI
+
+## Languages
+
+* **Español** (Native level)
+
+* **English** (Professional basic level)

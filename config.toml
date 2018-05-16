@@ -4,36 +4,41 @@ languageCode = "en-us"
 copyright = "Joshua Marquez"
 googleAnalytics = "UA-77414174-1"
 disqusShortname = "joshuamarquez"
+paginate = 20
+canonifyurls = true
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+theme = "coder"
 
-[Author]
-    name = "Joshua Marquez"
-    profile = "https://www.twitter.com/joshuamarquezn"
+[params] # theme parameters
+    author = "Joshua Marquez" # author's name
+    info = "Back-End & DevOps Engineer" # author's job title or info
+    description = "Joshua Marquez's personal website" # site description
+    keywords = "blog,developer,personal,back-end,devops,engineer" # site keywords
 
-[Taxonomies]
-    tag = "tags"
-
-[Params]
-    intro = true
-    headline = "Joshua's Blog"
-    description = "Software Engineer"
-    github = "https://github.com/joshuamarquez"
-    linkedin = "https://www.linkedin.com/in/josuehenry14"
-    twitter = "https://twitter.com/joshuamarquezn"
-
-[Permalinks]
-    post = "/:year/:month/:day/:filename/"
-
-[[menu.main]]
-    name = "Browse Posts"
-    url = "/"
+[[params.social]]
+    name = "Github"
     weight = 1
+    url = "https://github.com/joshuamarquez"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/joshuamarquezn"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/josuehenry14"
+[[params.social]]
+    name = "Email"
+    weight = 4
+    url = "mailto:joshua.marquez.n@gmail.com"
 
 [[menu.main]]
-    name = "Contact"
-    url = "/page/contact/"
-    weight = 2
-
+    name = "Blog"
+    weight = 1
+    url = "/posts/"
 [[menu.main]]
     name = "About"
-    url = "/page/about/"
     weight = 3
+    url = "/page/about/"
