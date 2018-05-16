@@ -8,19 +8,19 @@ This is just my website made with [Hugo](https://gohugo.io/).
 $ git clone --recursive git@github.com:joshuamarquez/hugo-joshuamarquez.me.git
 ```
 
-**Note:** Use `--recursive` git option to also clone `ghostwriter` hugo theme.
+**Note:** Use `--recursive` git option to also clone `coder` hugo theme.
 
 ## Preview
 
 ```
-$ hugo server --theme=ghostwriter
+$ hugo server
 ```
 
 
 ## Build
 
 ```
-$ hugo --theme=ghostwriter
+$ hugo
 ```
 
 After running the above command you can find the generated site at `hugo-joshuamarquez.me/public`.
