@@ -8,7 +8,7 @@ title = "about"
 
 ## Who Am I?
 
-Hi!, I'm Josué Márquez Navarro, a Software Engineer.
+Hi!, I'm Josué Márquez Navarro, a Full-stack developer.
 
 **I love...**
 
@@ -19,31 +19,23 @@ Hi!, I'm Josué Márquez Navarro, a Software Engineer.
 
 ## Things I do in my free time (some of them)...
 
-*   [GitHub repos](https://github.com/joshuamarquez?tab=repositories)
-*   [npm packages](https://www.npmjs.com/~joshua.marquez)
-*   [Docker images](https://hub.docker.com/r/joshuamarquez)
-*   [Maven Java artifacts](https://bintray.com/joshuamarquez/maven)
-*   [Android Apps](https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez)
+*   GitHub repos -> https://github.com/joshuamarquez?tab=repositories
+*   npm packages -> https://www.npmjs.com/~joshua.marquez
+*   Docker images -> https://hub.docker.com/r/joshuamarquez
+*   Maven Java artifacts -> https://bintray.com/joshuamarquez/maven
+*   Android Apps -> https://play.google.com/store/apps/developer?id=Joshua+M%C3%A1rquez
 
 ## Experience
 
-**_February 2018 - Present_ / Back-End & DevOps Developer at [Agave Lab](http://agavelab.com/) in Guadalajara, MX.**
+**_February 2018 - Present_ / Full-stack Developer at [Agave Lab](http://agavelab.com/) in Guadalajara, MX.**
 
-Currently working with microservices using technologies like:
+My work here is split in three main areas:
 
-* GraphQL
-* gRPC
-* Node.js
-* PostgreSQL
-* Docker
+* Back-end: GraphQL, gRPC, Node.js, PostgreSQL, Docker
 
-For the DevOps part:
+* Front-end: React, Sass, GraphQL, Webpack
 
-* Kubernetes
-* AWS
-* Azure
-* Rancher
-* CircleCI
+* DevOps: Kubernetes, AWS, Azure, Rancher, CircleCI
 
 
 **_February 2015 - November 2017_ / Back-End Developer at Protocool in Hermosillo, MX.**
@@ -71,8 +63,9 @@ experience and enthusiasm to continue in the world of programming.
 
 **_February 2014_ / Oracle Certified Professional, Java SE 6 Programmer.**
 
-Recognized by The Oracle Certification Program as a Java SE 6 Programmer.
-[**PDF Certificate.**](http://joshuamarquez.me/docs/eCertificate.pdf)
+Recognized by The Oracle Certification Program as a Java SE 6 Programmer. 
+
+**Download PDF** -> http://joshuamarquez.me/docs/eCertificate.pdf
 
 ## Education
 
@@ -95,7 +88,9 @@ Universidad de Sonora. Hermosillo, México.
 
 * Front-end
 
-  * React.js (Junior Level)
+  * React
+  * Sass
+  * GraphQL
 
 ### Databases
 

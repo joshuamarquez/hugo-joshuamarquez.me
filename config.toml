@@ -1,5 +1,5 @@
 baseurl = "http://joshuamarquez.me/"
-title = "joshuamarquez.me"
+title = "joshuamarquez.me - Full-stack developer"
 languageCode = "en-us"
 copyright = "Joshua Marquez"
 googleAnalytics = "UA-77414174-1"
@@ -13,9 +13,9 @@ theme = "coder"
 
 [params] # theme parameters
     author = "Joshua Marquez" # author's name
-    info = "Back-End & DevOps Engineer" # author's job title or info
+    info = "Full-stack developer" # author's job title or info
     description = "Joshua Marquez's personal website" # site description
-    keywords = "blog,developer,personal,back-end,devops,engineer" # site keywords
+    keywords = "blog,developer,personal,back-end,front-end,full-stack,devops,engineer" # site keywords
 
 [[params.social]]
     name = "Github"
