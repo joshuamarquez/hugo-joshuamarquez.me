@@ -31,11 +31,11 @@ Hi!, I'm Josué Márquez Navarro, a Full-stack developer.
 
 My work here is split in three main areas:
 
-* Back-end: GraphQL, gRPC, Node.js, PostgreSQL, Docker
+* Back-end - GraphQL, gRPC, Node.js, PostgreSQL
 
-* Front-end: React, Sass, GraphQL, Webpack
+* Front-end - React, Sass, GraphQL, Redux, Webpack
 
-* DevOps: Kubernetes, AWS, Azure, Rancher, CircleCI
+* DevOps - Docker, AWS, Kubernetes, Azure, Rancher, CircleCI
 
 
 **_February 2015 - November 2017_ / Back-End Developer at Protocool in Hermosillo, MX.**
@@ -80,17 +80,22 @@ Universidad de Sonora. Hermosillo, México.
 * Back-end
 
   * Node.js
-  * Express.js
-  * Sails.js
   * GraphQL
   * gRPC
-  * Mocha
+  * Express.js
+  * Sails.js
 
 * Front-end
 
   * React
   * Sass
   * GraphQL
+  * Redux
+
+* Testing
+
+  * Mocha
+  * TestCafe
 
 ### Databases
 
@@ -110,11 +115,11 @@ Universidad de Sonora. Hermosillo, México.
 * Docker
 * Kubernetes
 * Rancher
-* Travis
 * CircleCI
+* Travis
 
 ## Languages
 
 * **Español** (Native level)
 
-* **English** (Professional basic level)
+* **English** (Professional level)
