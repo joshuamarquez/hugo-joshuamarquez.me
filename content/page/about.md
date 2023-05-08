@@ -65,7 +65,7 @@ experience and enthusiasm to continue in the world of programming.
 
 Recognized by The Oracle Certification Program as a Java SE 6 Programmer. 
 
-**Download PDF** -> https://joshuamarquez.me/docs/eCertificate.pdf
+**Download PDF** -> https://joshuamarquez.github.io/docs/eCertificate.pdf
 
 ### Education
 

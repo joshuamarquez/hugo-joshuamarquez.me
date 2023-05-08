@@ -1,5 +1,5 @@
-baseurl = "https://joshuamarquez.me/"
-title = "joshuamarquez.me"
+baseurl = "https://joshuamarquez.github.io/"
+title = "joshuamarquez.github.io"
 languageCode = "en-us"
 copyright = "Joshua Marquez"
 googleAnalytics = "UA-77414174-1"
@@ -30,8 +30,12 @@ theme = "coder"
     weight = 3
     url = "https://www.linkedin.com/in/josuehenry14"
 [[params.social]]
-    name = "Email"
+    name = "Instagram"
     weight = 4
+    url = "https://www.instagram.com/joshuaaoutside/"
+[[params.social]]
+    name = "Email"
+    weight = 5
     url = "mailto:joshua.marquez.n@gmail.com"
 
 [[menu.main]]
