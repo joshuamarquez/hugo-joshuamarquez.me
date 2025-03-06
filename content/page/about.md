@@ -12,11 +12,12 @@ Hi!, I'm Josué Márquez Navarro, a Full-stack developer.
 
 **I love...**
 
-*   Coding
+*   Mountaineering
 *   Mountain Biking
-*   Fantastic/Sci-Fi reading
+*   Coding
 *   Learn new things
-*   Stars
+*   Fantastic/Sci-Fi stuff
+*   Night Sky
 
 ### Open source contributions
 

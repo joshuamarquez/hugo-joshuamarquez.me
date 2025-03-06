@@ -3,13 +3,16 @@ title = "joshuamarquez.github.io"
 languageCode = "en-us"
 copyright = "Joshua Marquez"
 googleAnalytics = "UA-77414174-1"
-disqusShortname = "joshuamarquez"
-paginate = 20
+pagerSize = 20
 canonifyurls = true
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 theme = "coder"
+
+[services]
+[services.disqus]
+Shortname = "joshuamarquez"
 
 [params] # theme parameters
     author = "Joshua Marquez" # author's name
@@ -24,19 +27,23 @@ theme = "coder"
 [[params.social]]
     name = "Twitter"
     weight = 2
-    url = "https://twitter.com/joshuamarquezn"
+    url = "https://x.com/joshuaoutside"
 [[params.social]]
     name = "LinkedIn"
     weight = 3
-    url = "https://www.linkedin.com/in/josuehenry14"
+    url = "https://www.linkedin.com/in/josuemarquezn/"
 [[params.social]]
     name = "Instagram"
     weight = 4
-    url = "https://www.instagram.com/joshuaaoutside/"
+    url = "https://www.instagram.com/josueoutside/"
 [[params.social]]
     name = "Email"
     weight = 5
     url = "mailto:joshua.marquez.n@gmail.com"
+[[params.social]]
+    name = "Photos"
+    weight = 6
+    url = "https://joshuamarquezn.darkroom.com/"
 
 [[menu.main]]
     name = "Blog"
